@@ -6226,9 +6226,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemCore\\ModaSystemCore.csproj",
-      "projectName": "ModaSystemCore",
-      "projectPath": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemCore\\ModaSystemCore.csproj",
+      "projectUniqueName": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemCore\\ModaSystemWeb.csproj",
+      "projectName": "ModaSystemWeb",
+      "projectPath": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemCore\\ModaSystemWeb.csproj",
       "packagesPath": "C:\\Users\\espir\\.nuget\\packages\\",
       "outputPath": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemCore\\obj\\",
       "projectStyle": "PackageReference",

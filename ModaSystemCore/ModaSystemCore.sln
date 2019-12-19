@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModaSystemCore", "ModaSystemCore\ModaSystemCore.csproj", "{23F9DF90-B2CB-4E20-9391-228A7FB0663D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModaSystemWeb", "ModaSystemCore\ModaSystemWeb.csproj", "{23F9DF90-B2CB-4E20-9391-228A7FB0663D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentação", "0 - Apresentação", "{3D2FF3CA-AA70-46B0-8156-E9B81BD5CD66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Dados", "1 - Dados", "{10AF4DD3-0642-4694-8AC5-CEBF80216D51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Core", "2 - Core", "{2AC0FC6E-AB18-4086-B684-7679089BAC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModaSystemDomain", "ModaSystemDomain\ModaSystemDomain.csproj", "{A01C69E7-67F6-41C1-AF45-55D990B5C17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModaSystemDados", "ModaSystemDados\ModaSystemDados.csproj", "{41AAD6A9-197A-4E06-BBD4-55796D511E1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,22 @@ Global
 		{23F9DF90-B2CB-4E20-9391-228A7FB0663D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23F9DF90-B2CB-4E20-9391-228A7FB0663D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23F9DF90-B2CB-4E20-9391-228A7FB0663D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01C69E7-67F6-41C1-AF45-55D990B5C17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01C69E7-67F6-41C1-AF45-55D990B5C17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01C69E7-67F6-41C1-AF45-55D990B5C17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01C69E7-67F6-41C1-AF45-55D990B5C17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41AAD6A9-197A-4E06-BBD4-55796D511E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AAD6A9-197A-4E06-BBD4-55796D511E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AAD6A9-197A-4E06-BBD4-55796D511E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AAD6A9-197A-4E06-BBD4-55796D511E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23F9DF90-B2CB-4E20-9391-228A7FB0663D} = {3D2FF3CA-AA70-46B0-8156-E9B81BD5CD66}
+		{A01C69E7-67F6-41C1-AF45-55D990B5C17A} = {2AC0FC6E-AB18-4086-B684-7679089BAC59}
+		{41AAD6A9-197A-4E06-BBD4-55796D511E1F} = {10AF4DD3-0642-4694-8AC5-CEBF80216D51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D49E7FF9-6CF6-48D3-866C-D485BE63ABF4}
