@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 namespace ModaSystemDomain.Entidades
 {
     public class Cidade
@@ -8,8 +10,7 @@ namespace ModaSystemDomain.Entidades
         public string CidadeNome { get; set; }
         public string CidadeEstado { get; set; }
         public int CidadeCodPais { get; set; }
-        public string CidadePais { get; set; }
 
-        public virtual Pais Pais { get; set; }
+        public IEnumerable<Pais> Paises { get; }
     }
 }
