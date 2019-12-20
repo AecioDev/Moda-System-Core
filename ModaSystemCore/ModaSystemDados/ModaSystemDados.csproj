@@ -6,8 +6,14 @@
 
   <ItemGroup>
     <Folder Include="Configuracoes\" />
-    <Folder Include="Repositorios\" />
-    <Folder Include="Contexto\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModaSystemDomain\ModaSystemDomain.csproj" />
   </ItemGroup>
 
 </Project>

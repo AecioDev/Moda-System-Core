@@ -9,5 +9,7 @@ namespace ModaSystemDomain.Entidades
         public decimal AcertoCusPro { get; set; }
         public decimal AcertoValPro { get; set; }
 
+        public virtual Produto Produto { get; set; }
+
     }
 }
