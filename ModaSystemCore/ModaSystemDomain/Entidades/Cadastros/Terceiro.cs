@@ -13,7 +13,7 @@ namespace ModaSystemDomain.Entidades
         public string TerceiroNum { get; set; }
         public string TerceiroBairro { get; set; }
         public string TerceiroComp { get; set; }
-        public string TerceiroCidade { get; set; } //Código da Cidade
+        public int TerceiroCidade { get; set; } //Código da Cidade
 
         public virtual Cidade Cidade { get; set; }
 

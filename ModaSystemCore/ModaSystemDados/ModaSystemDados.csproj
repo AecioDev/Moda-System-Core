@@ -7,10 +7,22 @@
   <ItemGroup>
     <Compile Remove="Migrations\20191220040458_PrimeiraMigration.cs" />
     <Compile Remove="Migrations\20191220040458_PrimeiraMigration.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Configuracoes\Cadastros\" />
+    <Compile Remove="Migrations\20191220041130_PrimeiraMigration.cs" />
+    <Compile Remove="Migrations\20191220041130_PrimeiraMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191221012548_Migration01.cs" />
+    <Compile Remove="Migrations\20191221012548_Migration01.Designer.cs" />
+    <Compile Remove="Migrations\20191228230215_Migration06.cs" />
+    <Compile Remove="Migrations\20191228230215_Migration06.Designer.cs" />
+    <Compile Remove="Migrations\20191228230751_Migration07.cs" />
+    <Compile Remove="Migrations\20191228230751_Migration07.Designer.cs" />
+    <Compile Remove="Migrations\20191228233326_Migration07.cs" />
+    <Compile Remove="Migrations\20191228233326_Migration07.Designer.cs" />
+    <Compile Remove="Migrations\20191228233447_Migration08.cs" />
+    <Compile Remove="Migrations\20191228233447_Migration08.Designer.cs" />
+    <Compile Remove="Migrations\20191228233648_Migration08.cs" />
+    <Compile Remove="Migrations\20191228233648_Migration08.Designer.cs" />
+    <Compile Remove="Migrations\20191228233841_Migration06.cs" />
+    <Compile Remove="Migrations\20191228233841_Migration06.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 namespace ModaSystemDomain.Entidades
 {
     public class AcertoProdutos
@@ -10,6 +12,6 @@ namespace ModaSystemDomain.Entidades
         public decimal AcertoValPro { get; set; }
 
         public virtual Produto Produto { get; set; }
-
+        public List<Acerto> Acerto { get; set; }
     }
 }

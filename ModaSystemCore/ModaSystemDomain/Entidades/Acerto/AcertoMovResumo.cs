@@ -3,11 +3,14 @@ namespace ModaSystemDomain.Entidades
 {
     public class AcertoMovResumo
     {
+        public int AcertoMovId { get; set; }
+        public decimal MovValTotEnt { get; set; }   //MERCADORIAS ENTREGUES
+        public decimal MovValTotNEnt { get; set; }  //MERCADORIAS NÃO ENTREGUES
+        public decimal MovValTotRSal { get; set; }  //MERCADORIAS RETIRADAS NO SALÃO
+        public decimal MovValTotDev { get; set; }   //MERCADORIAS DEVOLVIDAS
+
         public int AcertoId { get; set; }
-        public int AcertoDevId { get; set; }
-        public decimal MovValTotEnt { get; set; }
-        public decimal MovValTotNaoEnt { get; set; }
-        public decimal MovValTotRetSalao { get; set; }
+        public Acerto Acerto { get; set; }
     }
 }
 

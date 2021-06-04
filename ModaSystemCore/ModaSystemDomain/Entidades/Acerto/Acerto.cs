@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections.Generic;
 
 namespace ModaSystemDomain.Entidades
 {
@@ -34,9 +35,11 @@ namespace ModaSystemDomain.Entidades
         public decimal PercPagEmpresa { get; set; }
         public decimal ValPagEmpresa { get; set; }
 
-
         public virtual Socios Socios { get; set; }
         public virtual Veiculo Veiculo { get; set; }
+        public List<AcertoDespesas> AcertoDespesas { get; set; }
+        public AcertoMovResumo AcertoResumo { get; set; }
+        //public virtual AcertoProdutos AcertoProdutos { get; set; }
 
     }
 }

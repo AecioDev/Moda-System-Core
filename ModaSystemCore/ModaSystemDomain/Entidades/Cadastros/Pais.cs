@@ -1,4 +1,5 @@
-﻿
+﻿using System.Collections.Generic;
+
 namespace ModaSystemDomain.Entidades
 {
     public class Pais
@@ -6,6 +7,6 @@ namespace ModaSystemDomain.Entidades
         public int CodPaisBacen { get; set; }
         public string NomePaisBacen { get; set; }
 
-        public Cidade Cidade { get; set; }
+        public List<Cidade> Cidades { get; set; }
     }
 }

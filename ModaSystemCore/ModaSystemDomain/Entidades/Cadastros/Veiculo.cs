@@ -1,4 +1,5 @@
-﻿
+﻿using System.Collections.Generic;
+
 namespace ModaSystemDomain.Entidades
 {
     public class Veiculo
@@ -10,5 +11,8 @@ namespace ModaSystemDomain.Entidades
         public int VeiculoAno { get; set; }
         public string VeiculoStatus { get; set; }
         public string VeiculoObs { get; set; }
+
+        public List<Socios> Socios { get; set; }
+        public List<Acerto> Acerto { get; set; }
     }
 }

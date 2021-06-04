@@ -8,9 +8,8 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\espir\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\aecio\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -18,15 +17,14 @@
       "projectUniqueName": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemDomain\\ModaSystemDomain.csproj",
       "projectName": "ModaSystemDomain",
       "projectPath": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemDomain\\ModaSystemDomain.csproj",
-      "packagesPath": "C:\\Users\\espir\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\aecio\\.nuget\\packages\\",
       "outputPath": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemDomain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\espir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aecio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -65,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

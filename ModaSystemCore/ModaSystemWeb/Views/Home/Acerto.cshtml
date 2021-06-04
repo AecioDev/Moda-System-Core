@@ -1,0 +1,266 @@
+﻿@model ModaSystemWeb.Models.AcertoViewModel
+
+@{
+    ViewData["Title"] = "Acerto";
+}
+
+<h1>Sócio: Érick</h1>
+
+<h4>Janeiro/2020</h4>
+<hr />
+<!--==================================*
+                   Main Section
+*====================================-->
+<div class="main-content-inner">
+    <div class="row">
+        <div class="col-8">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card_title">Produtos / Mercadorias</h4>
+                    <form>
+                        <div class="form-row align-items-center">
+                            <div class="col-sm-3 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Mercadorias Entregue</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="Quantidade">
+                            </div>
+
+                            <div class="col-sm-3 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Total Entregue</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                            </div>
+
+                            <div class="col-sm-3 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Total Devolvidas</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                            </div>
+
+                            <div class="col-sm-3 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Total Vendidas</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card_title">Resumo / Fechamento</h4>
+                    <form>
+                        <div class="form-row align-items-center">
+                            <div class="col-sm-4 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Receitas</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                            </div>
+
+                            <div class="col-sm-4 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Despesas</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                            </div>
+
+                            <div class="col-sm-4 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Saldo</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card_title">Pagamento</h4>
+                    <div class="single-table">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="text-uppercase">
+                                    <tr>
+                                        <th scope="col">Parceiro</th>
+                                        <th scope="col">Índice</th>
+                                        <th scope="col">Valor</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sócio</td>
+                                        <td>50%</td>
+                                        <td>R$ 8.085,20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Firma</td>
+                                        <td>50%</td>
+                                        <td>R$ 7.141,28</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card_title">Cobranças no Estado de MS</h4>
+                    <form>
+                        <div class="form-row align-items-center">
+                            <div class="col-sm-6 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Total de Fichas</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="Quantidade">
+                            </div>
+
+                            <div class="col-sm-6 my-1">
+                                <label class="col-form-label" for="inlineFormInputName">Valor Total</label>
+                                <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Hoverable Rows Table start -->
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3 my-1">
+                                <h4 class="card_title">Despesas</h4>
+                            </div>
+                            <div class="col-auto my-1">
+                                <button type="button" class="btn btn-primary btn-fixed-w mb-3">+ Despesa</button>
+                            </div>
+                        </div>
+                        <div class="single-table">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead class="text-uppercase">
+                                        <tr>
+                                            <th scope="col">Cód.</th>
+                                            <th scope="col">Despesa</th>
+                                            <th scope="col">Valor</th>
+                                            <th scope="col">Ação</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mercadorias</td>
+                                            <td>R$ 45.085,20</td>
+                                            <td>
+                                                <i class="ti-pencil mr-1 btn btn-success"></i>
+                                                <i class="ti-trash btn btn-danger"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Combustível</td>
+                                            <td>R$2.141,28</td>
+                                            <td>
+                                                <i class="ti-pencil mr-1 btn btn-success"></i>
+                                                <i class="ti-trash btn btn-danger"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Refeição Hotel</td>
+                                            <td>R$ 1.982,58</td>
+                                            <td>
+                                                <i class="ti-pencil mr-1 btn btn-success"></i>
+                                                <i class="ti-trash btn btn-danger"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Vendedores</td>
+                                            <td>R$ 1.850,00</td>
+                                            <td>
+                                                <i class="ti-pencil mr-1 btn btn-success"></i>
+                                                <i class="ti-trash btn btn-danger"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Oficinas</td>
+                                            <td>R$ 455,00</td>
+                                            <td>
+                                                <i class="ti-pencil mr-1 btn btn-success"></i>
+                                                <i class="ti-trash btn btn-danger"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Seguro 1/6</td>
+                                            <td>R$ 411,83</td>
+                                            <td>
+                                                <i class="ti-pencil mr-1 btn btn-success"></i>
+                                                <i class="ti-trash btn btn-danger"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Seguro 2/6</td>
+                                            <td>R$ 411,83</td>
+                                            <td>
+                                                <i class="ti-pencil mr-1 btn btn-success"></i>
+                                                <i class="ti-trash btn btn-danger"></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="form-row align-items-center">
+                                <div class="col-sm-6 my-1 text-right">
+                                    <label class="col-form-label" for="inlineFormInputName"><b>Total Despesas</b></label>
+                                </div>
+
+                                <div class="col-sm-6 my-1">
+                                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="R$ 0,00">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Hoverable Rows Table end -->
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card_title">Resumo Mensal</h4>
+                    <div class="form-group">
+                        <label for="example-text-input-sm" class="col-form-label">Mercadorias Entregues</label>
+                        <input class="form-control form-control-sm" type="text" placeholder="R$ 0,00" id="example-text-input-lg">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="example-text-input-sm" class="col-form-label">Mercadorias Não Entregues</label>
+                        <input class="form-control form-control-sm" type="text" placeholder="R$ 0,00" id="example-text-input-sm">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="example-text-input-sm" class="col-form-label">Mercadorias Retiradas no Salão</label>
+                        <input class="form-control form-control-sm" type="text" placeholder="R$ 0,00" id="example-text-input-sm">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="example-text-input-sm" class="col-form-label">Mercadorias Devolvidas</label>
+                        <input class="form-control form-control-sm" type="text" placeholder="R$ 0,00" id="example-text-input-sm">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card_title">Observações Gerais</h4>
+                    <div class="form-group">
+                        <input class="form-control form-control-sm" type="text" placeholder="Digite seu texto aqui!" id="example-text-input-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--==================================*
+           End Main Section
+*====================================-->
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,48 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using ModaSystemWeb.Models;
 
-namespace ModaSystemCore.Controllers
+namespace ModaSystemWeb.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Acerto()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult CadastroProdutos()
+
+        public IActionResult Privacy()
         {
             return View();
         }
-        public IActionResult CadastroUnidades()
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
         {
-            return View();
-        }
-        public IActionResult CadastroMarcas()
-        {
-            return View();
-        }
-        public IActionResult CadastroDespesas()
-        {
-            return View();
-        }
-        public IActionResult CadastroClientes()
-        {
-            return View();
-        }
-        public IActionResult CadastroVendedores()
-        {
-            return View();
-        }
-        public IActionResult CadastroFornecedores()
-        {
-            return View();
-        }
-        public IActionResult Contato()
-        {
-            return View();
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

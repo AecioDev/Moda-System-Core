@@ -11,6 +11,7 @@ namespace ModaSystemDomain.Entidades
         public string CidadeEstado { get; set; }
         public int CidadeCodPais { get; set; }
 
-        public IEnumerable<Pais> Paises { get; }
+        public virtual Pais Pais { get; set; }
+        public List<Terceiro> Terceiro { get; set; }
     }
 }
