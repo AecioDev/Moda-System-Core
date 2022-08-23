@@ -1,10 +1,7 @@
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\bin\Debug\netcoreapp3.1\appsettings.json
-E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\bin\Debug\netcoreapp3.1\ModaSystemWeb.exe
-E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.csprojAssemblyReference.cache
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\staticwebassets\ModaSystemWeb.StaticWebAssets.Manifest.cache
-E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\staticwebassets\ModaSystemWeb.StaticWebAssets.xml
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.RazorAssemblyInfo.cache
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.RazorAssemblyInfo.cs
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.AssemblyInfoInputs.cache
@@ -129,3 +126,8 @@ E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\bin\D
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.MvcApplicationPartsAssemblyInfo.cache
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Acerto.cshtml.g.cs
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.csproj.AssemblyReference.cache
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.csproj.CoreCompileInputs.cache
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\obj\Debug\netcoreapp3.1\ModaSystemWeb.genruntimeconfig.cache
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\bin\Debug\netcoreapp3.1\ModaSystemWeb.StaticWebAssets.xml

@@ -5,3 +5,6 @@ E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDomain\ob
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDomain\obj\Debug\netcoreapp3.1\ModaSystemDomain.AssemblyInfo.cs
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDomain\obj\Debug\netcoreapp3.1\ModaSystemDomain.dll
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDomain\obj\Debug\netcoreapp3.1\ModaSystemDomain.pdb
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDomain\obj\Debug\netcoreapp3.1\ModaSystemDomain.csproj.AssemblyReference.cache
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDomain\obj\Debug\netcoreapp3.1\ModaSystemDomain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDomain\obj\Debug\netcoreapp3.1\ModaSystemDomain.csproj.CoreCompileInputs.cache

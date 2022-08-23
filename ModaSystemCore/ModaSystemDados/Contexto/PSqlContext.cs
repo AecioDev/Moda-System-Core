@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using ModaSystemDados.Configuracoes;
 using ModaSystemDomain.Entidades;
 using System;
@@ -9,8 +10,14 @@ namespace ModaSystemDados.Contexto
 {
     public class PSqlContext : DbContext
     {
-        public PSqlContext(DbContextOptions<PSqlContext> options) 
-            : base(options){}
+        //public PSqlContext(DbContextOptions<PSqlContext> options)
+        //    : base(options) { }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var ConnString = "Server=localhost;Port=5432;Database=DoceControl;User Id=postgres;Password=9854;";
+            optionsBuilder.UseNpgsql(ConnString, (x => x.SetPostgresVersion(9, 6)));
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

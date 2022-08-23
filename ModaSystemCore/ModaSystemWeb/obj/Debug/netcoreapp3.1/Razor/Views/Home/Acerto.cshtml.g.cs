@@ -28,7 +28,9 @@ using ModaSystemWeb.Models;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f33c65a37774b429c334712411de4335fd6e119b", @"/Views/Home/Acerto.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb98df15cb4ce599f47334cd213d8e3e9fe7a837", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Home_Acerto : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ModaSystemWeb.Models.AcertoViewModel>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
@@ -81,7 +83,7 @@ using ModaSystemWeb.Models;
                 <div class=""card-body"">
                     <h4 class=""card_title"">Produtos / Mercadorias</h4>
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b4434", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b4480", async() => {
                 WriteLiteral(@"
                         <div class=""form-row align-items-center"">
                             <div class=""col-sm-3 my-1"">
@@ -120,7 +122,7 @@ using ModaSystemWeb.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n\r\n                <div class=\"card-body\">\r\n                    <h4 class=\"card_title\">Resumo / Fechamento</h4>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b7366", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b7412", async() => {
                 WriteLiteral(@"
                         <div class=""form-row align-items-center"">
                             <div class=""col-sm-4 my-1"">
@@ -187,7 +189,7 @@ using ModaSystemWeb.Models;
                 <div class=""card-body"">
                     <h4 class=""card_title"">Cobranças no Estado de MS</h4>
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b11361", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b11407", async() => {
                 WriteLiteral(@"
                         <div class=""form-row align-items-center"">
                             <div class=""col-sm-6 my-1"">
@@ -314,7 +316,7 @@ using ModaSystemWeb.Models;
                             </div>
                         </div>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b19180", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b19226", async() => {
                 WriteLiteral(@"
                             <div class=""form-row align-items-center"">
                                 <div class=""col-sm-6 my-1 text-right"">
@@ -381,7 +383,7 @@ using ModaSystemWeb.Models;
             </div>
  ");
             WriteLiteral("       </div>\r\n    </div>\r\n</div>\r\n<!--==================================*\r\n           End Main Section\r\n*====================================-->\r\n\r\n<div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b23387", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f33c65a37774b429c334712411de4335fd6e119b23433", async() => {
                 WriteLiteral("Voltar");
             }
             );
@@ -410,16 +412,26 @@ using ModaSystemWeb.Models;
             );
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ModaSystemWeb.Models.AcertoViewModel> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ModaSystemWeb.Models.AcertoViewModel> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

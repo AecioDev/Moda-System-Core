@@ -1,5 +1,4 @@
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\bin\Debug\netcoreapp3.1\ModaSystemDomain.dll
-E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.csprojAssemblyReference.cache
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.AssemblyInfoInputs.cache
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.AssemblyInfo.cs
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\bin\Debug\netcoreapp3.1\ModaSystemDados.deps.json
@@ -11,3 +10,7 @@ E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\bin
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.csproj.CopyComplete
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.dll
 E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.pdb
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.csproj.AssemblyReference.cache
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.csproj.CoreCompileInputs.cache
+E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemDados\obj\Debug\netcoreapp3.1\ModaSystemDados.genruntimeconfig.cache
