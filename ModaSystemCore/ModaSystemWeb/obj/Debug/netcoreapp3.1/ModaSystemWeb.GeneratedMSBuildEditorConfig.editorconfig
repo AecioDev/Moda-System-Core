@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = ModaSystemWeb
-build_property.ProjectDir = E:\Projetos C#\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\
+build_property.ProjectDir = F:\Programacao\Pessoais\ProjetosCSharp\Projetos 2020\Moda-System-Core\ModaSystemCore\ModaSystemWeb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

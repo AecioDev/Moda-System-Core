@@ -1,0 +1,31 @@
+## Build outputs
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+## Rider / Resharper
+.idea/
+*.sln.iml
+
+## NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Publish outputs
+/Publish/
+*publish/
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

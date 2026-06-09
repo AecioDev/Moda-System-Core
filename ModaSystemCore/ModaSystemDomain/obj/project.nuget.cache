@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Zlj2pLYUqrrAfQSaQToUUqMKeEfymabKjIsWohNyxbyC8NSX9dtqlcS5ZnUMPLHOOVEM4Z993kVX7rYZpN7R1A==",
+  "dgSpecHash": "lAH2RbVpvLY=",
   "success": true,
-  "projectFilePath": "E:\\Projetos C#\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemDomain\\ModaSystemDomain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\Programacao\\Pessoais\\ProjetosCSharp\\Projetos 2020\\Moda-System-Core\\ModaSystemCore\\ModaSystemDomain\\ModaSystemDomain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\espir\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\espir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\espir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
